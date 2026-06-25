@@ -1,0 +1,67 @@
+{
+  "packages": {
+    "python": "3.11.15",
+    "torch": "2.12.0+cu130",
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "sklearn": "1.9.0",
+    "scipy": "1.17.1",
+    "matplotlib": "3.10.9",
+    "seaborn": "0.13.2",
+    "xgboost": "2.0.3",
+    "umap-learn": "0.5.12",
+    "sdv": "1.9.0",
+    "cuda": "13.0",
+    "device": "cuda",
+    "gpu": "NVIDIA GeForce RTX 3050"
+  },
+  "experiment_config": {
+    "RANDOM_SEED": 42,
+    "N_FOLDS": 5,
+    "N_TRIALS_OPTUNA": 100,
+    "MAX_EPOCHS": 200,
+    "PATIENCE": 50,
+    "TEST_SIZE": 0.2,
+    "VAL_SIZE": 0.2,
+    "MIN_AGE": 18,
+    "N_GENES": 20,
+    "BA_M_PATIENT": 2,
+    "BA_M_GENE": 2,
+    "CTGAN_EPOCHS": 150,
+    "CTGAN_BATCH_SIZE": 50,
+    "CTGAN_PAC": 10,
+    "FOCAL_GAMMA": 2,
+    "CLASS_WEIGHT": "inverse_frequency",
+    "THRESHOLD": "G-mean [0.20, 0.80] step 0.005",
+    "SMOTE_K": 3,
+    "BOOTSTRAP_N": 10000
+  },
+  "best_model_tcga": {
+    "name": "FastHGTConv",
+    "pipeline": "CTGAN",
+    "params": {
+      "hidden_dim": 16,
+      "num_heads": 4,
+      "dropout": 0.1,
+      "lr": 0.0013608364669184699,
+      "weight_decay": 6.316777394321948e-05
+    }
+  },
+  "best_model_cgga": {
+    "name": "RGCN",
+    "pipeline": "SMOTE",
+    "params": {
+      "hidden_dim": 128,
+      "num_heads": 8,
+      "dropout": 0.05,
+      "lr": 0.0006314150818053162,
+      "weight_decay": 1.0207774553870334e-05
+    }
+  },
+  "data_splits": {
+    "train": 535,
+    "val": 134,
+    "test": 168,
+    "cgga": 284
+  }
+}
