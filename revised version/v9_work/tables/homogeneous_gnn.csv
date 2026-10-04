@@ -1,0 +1,3 @@
+Model,Pipeline,Dataset,auc
+HomoGCN,No Balancing [homog],TCGA Test,0.8483
+HomoGCN,No Balancing [homog],CGGA,0.639

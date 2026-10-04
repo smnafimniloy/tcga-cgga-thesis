@@ -1,0 +1,29 @@
+,TCGA,CGGA
+n,837,284
+Age mean±SD,51.0 ± 15.6,42.2 ± 12.1
+Female %,41.9,41.2
+Grade1 (GBM/WHO IV) %,42.1,35.9
+Race White %,91.2,0.0
+Race Black %,7.0,0.0
+Race Asian %,1.7,100.0
+Race NativeAm %,0.1,0.0
+IDH1 %,48.0,46.8
+TP53 %,41.5,45.4
+ATRX %,25.9,29.2
+PTEN %,16.8,6.7
+EGFR %,13.4,3.9
+CIC %,13.1,14.4
+MUC16 %,11.7,7.4
+PIK3CA %,8.7,6.0
+NF1 %,8.0,7.0
+PIK3R1 %,6.5,4.9
+FUBP1 %,5.4,4.2
+RB1 %,4.8,1.1
+NOTCH1 %,4.5,7.7
+BCOR %,3.5,4.2
+CSMD3 %,3.2,1.4
+SMARCA4 %,3.2,2.1
+GRIN2A %,3.2,0.4
+IDH2 %,2.7,1.8
+FAT4 %,2.7,2.5
+PDGFRA %,2.6,4.2
