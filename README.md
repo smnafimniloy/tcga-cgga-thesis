@@ -138,3 +138,23 @@ This project is licensed under the MIT License.
 
 - Department of Computer Science, American International University - Bangladesh (AIUB)
 - TCGA and CGGA consortia for making genomic data publicly available
+## Citation
+
+If you use this work in your research, please cite:
+
+```bibtex
+@article{Niloy2026HeterogeneousGlioma,
+  author  = {Niloy, S. M. Nafim and
+             Sarker, Sudipta Niloy and
+             Boishakhi, Fahmida Akter and
+             Salman, Mohammad and
+             Tanvir, Kazi and
+             Hossain, Sazzad and
+             Gomes, Dipta Justin},
+  title   = {{Do heterogeneous graph neural networks improve cross-cohort glioma grading? A TCGA-CGGA benchmark with graph ablation and explainability}},
+  journal = {Network Modeling Analysis in Health Informatics and Bioinformatics},
+  year    = {2026},
+  volume  = {15},
+  pages   = {243},
+  doi     = {10.1007/s13721-026-00917-x}
+}
