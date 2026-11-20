@@ -138,6 +138,13 @@ This project is licensed under the MIT License.
 
 - Department of Computer Science, American International University - Bangladesh (AIUB)
 - TCGA and CGGA consortia for making genomic data publicly available
+
+## Research Infographic
+
+Explore the interactive infographic for an overview of the research, including the methodology, heterogeneous graph construction, MOGAT architecture, experimental setup, results, graph ablation, and explainability findings.
+
+**[View the Interactive Research Infographic](https://smnafimniloy.github.io/tcga-cgga-thesis/)**
+
 ## Citation
 
 If you use this work in your research, please cite:
